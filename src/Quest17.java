@@ -3,8 +3,6 @@ import java.util.TreeSet;
 
 public class Quest17 {
     public static void main(String[] args) {
-        //Diferença entre HashSet e TreeSet: Crie dois conjuntos: um HashSet e um TreeSet, ambos armazenando os números 5, 2, 9, 3, 7.
-        // Imprima os dois conjuntos e explique a diferença nos comportamentos de ordenação.
         HashSet<Integer> nums1=new HashSet<>();
         nums1.add(5);
         nums1.add(2);

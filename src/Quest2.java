@@ -9,13 +9,13 @@ public class Quest2 {
         numeros.add(40);
         numeros.add(50);
 
-        System.out.println("Array completo\n");
+        System.out.println("Array completo");
         for(int i=0;0<numeros.size();i++){
             System.out.println(numeros);
             break;
         }
         System.out.println();
-        System.out.println("Array sem o index 2\n");
+        System.out.println("Array sem o index 2");
         numeros.remove(2);
         for(int i=0;0<numeros.size();i++){
             System.out.println(numeros);
